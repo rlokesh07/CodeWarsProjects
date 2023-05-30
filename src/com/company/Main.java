@@ -9,20 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double[] thing = new double[2];
-        thing[0] = 0;
-        thing[1] = 1;
 
-        double[] key = new double[10];
-
-        key = Xbonacci.xbonacci(thing, 10);
-        for (int i = 0; i < 10; i++){
-
-
-
-
-            System.out.println(key[i]);
-        }
+        System.out.println(ROT13.rot13("J3 ne3 va lr@e 2023$$$!äöü"));
 
 
 
