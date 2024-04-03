@@ -10,9 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Range_Extraction range = new Range_Extraction();
-        int[] arr = new int[] {1,3,5,8,10,13,16,18,19};
-        System.out.println(range.rangeExtraction(arr));
+        System.out.println(DNAComplements.makeComplement("TAACG"));
 
 
 
